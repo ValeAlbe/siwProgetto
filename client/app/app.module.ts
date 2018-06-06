@@ -24,10 +24,11 @@ import { LoginComponent } from './pages/login/login.component';
 /* START MY VIEWS IMPORTS*/
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { HomeComponent } from './pages/home/home.component';
-import { CompanyComponent } from './pages/company/company.component';
 import { CompanyEditComponent } from './pages/company-edit/company-edit.component';
+import { CompanyListComponent } from './pages/company-list/company-list.component';
 import { ContactDetailComponent } from './pages/contact-detail/contact-detail.component';
 import { ContactEditComponent } from './pages/contact-edit/contact-edit.component';
+import { ContactListComponent } from './pages/contact-list/contact-list.component';
 
 /* END MY VIEWS IMPORTS*/
 
@@ -80,10 +81,13 @@ import { MailValidator } from './directives/mail-validate.directive';
     /* START DECLARATIONS */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
     HomeComponent,
-    CompanyComponent,
     CompanyEditComponent,
+    CompanyEditComponent,
+    CompanyListComponent,
     ContactDetailComponent,
     ContactEditComponent,
+    ContactEditComponent,
+    ContactListComponent,
  /* END DECLARATIONS */
     
     // PIPE

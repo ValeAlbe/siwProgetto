@@ -60,7 +60,8 @@ db_MyContacts_db_schema.Company = new mongoose.Schema({
   */
 db_MyContacts_db_schema.Contact = new mongoose.Schema({
 	email: {
-		type: 'String'
+		type: 'String',
+		unique : true, 
 	},
 	name: {
 		type: 'String', 

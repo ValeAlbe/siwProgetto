@@ -26,7 +26,8 @@ require('./custom/ContactCustom.js');
  * 
 	{
 		email: {
-			type: 'String'
+			type: 'String',
+			unique : true, 
 		},
 		name: {
 			type: 'String', 

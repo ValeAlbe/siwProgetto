@@ -12,7 +12,8 @@ const properties = require('../../../properties.js');
  * 
 	{
 		email: {
-			type: 'String'
+			type: 'String',
+			unique : true, 
 		},
 		name: {
 			type: 'String', 

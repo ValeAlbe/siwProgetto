@@ -40,7 +40,8 @@ import { config } from "../../../config/properties";
  * 
 	{
 		email: {
-			type: 'String'
+			type: 'String',
+			unique : true, 
 		},
 		name: {
 			type: 'String', 
