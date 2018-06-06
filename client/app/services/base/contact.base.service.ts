@@ -107,6 +107,15 @@ export class ContactBaseService {
             .get(this.contextUrl + '/findBycompany/' + id)
             .map(response => response.json() as Contact[]);
     }	
+    
+    /**
+     * Find by surname
+     */
+    findBySurname(id: string): Observable<Contact[]> {
+        return this.http
+            .get(this.contextUrl + '/findBysurname/' + id)
+            .map(response => response.json() as Contact[]);
+    }	
 	
     /**
      * Get one item by id

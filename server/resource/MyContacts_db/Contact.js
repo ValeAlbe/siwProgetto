@@ -90,6 +90,17 @@ app.get(properties.api + '/contacts/findBycompany/:key', function(req, res){
 	});
 	
 });
+
+//CRUD - FIND BY surname
+	
+app.get(properties.api + '/contacts/findBysurname/:key', function(req, res){
+
+	db_MyContacts_db.Contact.find({ 'surname' : req.params.key}).exec(function(err, list){
+		if (err) return handleError(err, res);
+		res.send(list);
+	});
+	
+});
 	
 //CRUD - GET ONE
 	

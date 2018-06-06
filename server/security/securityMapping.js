@@ -32,6 +32,7 @@ exports.authMapping = {
 	'POST - /api/contacts/*$' : null,
 	'DELETE - /api/contacts/([^/])+$' : null,
 	'GET - /api/contacts/findBycompany/([^/])+$' : null,
+	'GET - /api/contacts/findBysurname/([^/])+$' : [],
 	'GET - /api/contacts/([^/])+$' : null,
 	'GET - /api/contacts/*$' : null,
 	'POST - /api/contacts/([^/])+$' : null,

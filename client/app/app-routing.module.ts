@@ -34,6 +34,7 @@ const routes: Routes = [
     { path: 'contacts/:id/detail',  component: ContactDetailComponent  },
     { path: 'contacts/:id',  component: ContactEditComponent  },
     { path: 'contacts/:id',  component: ContactEditComponent , canActivate: [AuthGuard] },
+    { path: 'contacts/:id',  component: ContactEditComponent , canActivate: [AuthGuard] },
     { path: 'contacts',  component: ContactListComponent  },
     { path: 'home',  component: HomeComponent , canActivate: [AuthGuard] },
 

@@ -87,6 +87,7 @@ import { MailValidator } from './directives/mail-validate.directive';
     ContactDetailComponent,
     ContactEditComponent,
     ContactEditComponent,
+    ContactEditComponent,
     ContactListComponent,
  /* END DECLARATIONS */
     
